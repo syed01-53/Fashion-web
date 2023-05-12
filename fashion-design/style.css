@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+ .media i{
+    color: white;
+}
+.media:hover,.search-btn:hover ,.like-btn button:hover{
+    background-color: rgb(223, 219, 219);
+
+}
+
+i:hover{
+    color:black;
+}
+
+.main-image{
+    background-image: url(./assert/images/jane\ main\ pic.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
+    max-width: 100vw;
+    height: 140vh;
+}
+.girl_hat{
+    
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.like-btn button {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+ 
+}
+.eye-pic img{
+filter: grayscale(70%);
+}
+
+.fellow-body i{
+    color: black;
+    
+    
+}
+.fellow-body i:hover{
+   opacity: 0.4;
+}
+.footer{
+    background-color: darkgray;
+    height: 35vh;
+}
+.footer i{
+/* color: white; */
+}
